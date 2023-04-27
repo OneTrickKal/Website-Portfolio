@@ -195,4 +195,85 @@ nav ul li a:hover::after{
     color: #fff;
     text-decoration: underline;
 }
+.ContactDiv{
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     grid-template-rows: 2fr;
+
+     background-color: rgb(25, 35, 67);
+     border-radius: 15px;
+     padding: 20px 20px;
+     padding-bottom: 215px;
+
+     margin: 120px;
+     margin-top: 10px;
+}
+.ContactForm{
+    width: fit-content;
+    margin-top: 39px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: rgb(33, 46, 88);
+    color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 16px;
+    border-radius: 6px;
+}
+form button{
+    background-color: #ff4c74;
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.Contacth1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.ContactLeft{
+    margin-left: 20px;
+}
+.ContactP{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.ContactA{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.ContactBtnCv{
+    background-color: #ff4c74;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.ContactIcon{
+    margin-bottom: 50px;
+}
+.ContactIconA{
+    text-decoration: none;
+}
+
 
